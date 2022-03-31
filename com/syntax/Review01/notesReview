@@ -1,0 +1,32 @@
+Selenium review class 01
+
+1.driver.get()--> the page id fully loaded
+2.driver.navigate()--> keeps history can go back and forth
+3.driver.quit()--> close the browser
+4. driver.close()--> close only one tab
+5. maximize and fullscreen
+
+
+HTML:
+
+Locators:
+
+Xpath:
+<html>
+       <body>
+            <h1>hello<h1>
+            <h1>
+                 <p1>well though<p1>
+            <h1>
+            <h1>hitherto<h1>
+            <h1>hiwtwerrt<h1>
+            <h1>hiwetwet<h1>
+       </body>
+</html>
+
+
+/html/body/h1[2]/p1
+/html/body/h1[]
+
+
+
