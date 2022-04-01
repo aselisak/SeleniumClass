@@ -1,0 +1,23 @@
+advance xpath:
+get to the nearest sibling, parent or ancestor first and then have access to desired tag
+
+following sibling:
+//label[@name='myid']/following-sibling::input
+hey get to tag name label whose attribute name has value "myid" and then get me its following
+sibling which is "input"
+
+
+preceding -sibling:
+//input[@id='calFromDate']/preceding-sibling::label
+
+parent:
+//label[text()='enter message']
+/parent::div
+
+ancestor:
+//label[text()="enter message']/ancestor::form
+
+---------------------------------------------------------------------
+drop downs
+whenever we hav a drop downs that are made using select class
+we can use select class in selenium to deal with
