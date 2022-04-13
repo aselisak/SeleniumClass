@@ -51,6 +51,6 @@ public class Task3 {
                } else System.out.println("Test fail");
 
         }
-        //driver.quit();
+        driver.quit();
     }
 }
