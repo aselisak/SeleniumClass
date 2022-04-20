@@ -47,7 +47,7 @@ public class CalendarHandling {
        }
        WebElement doneButton=driver.findElement(By.className("donebutton"));
        doneButton.click();
-
+driver.quit();
 
     }
 }

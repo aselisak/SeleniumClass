@@ -17,5 +17,6 @@ public class NavigateMethod {
         driver.navigate().refresh();
         driver.close();// will close the current tab
         driver.quit();// will quit the whole browser
+
     }
 }

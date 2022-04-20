@@ -19,5 +19,6 @@ public class WorkingWithKeys {
         password.sendKeys("test", Keys.ENTER);//clicks enter
 
         //driver.findElement(By.className("button")).click();
+        driver.quit();
     }
 }

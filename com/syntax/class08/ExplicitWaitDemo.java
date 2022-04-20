@@ -23,7 +23,7 @@ public class ExplicitWaitDemo {
         WebElement firstName =driver.findElement(By.xpath("//p[contains(text(), 'First Name')]"));
         System.out.println(firstName.getText());
 
-
+driver.quit();
 
     }
 }

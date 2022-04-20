@@ -19,7 +19,7 @@ public class ActionsClassDemo {
         Actions action = new Actions(driver);
         //action.dragAndDrop(draggable,droppable).perform();
         action.clickAndHold(draggable).moveToElement(droppable).release().build().perform();//we use build() if we have more than one action
-
+driver.quit();
 
 
 

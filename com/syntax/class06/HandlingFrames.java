@@ -32,7 +32,7 @@ public class HandlingFrames {
           driver.switchTo().frame(frameElement);
           textBox.clear();
           textBox.sendKeys("hold your horses");
-
+driver.quit();
 
 
     }

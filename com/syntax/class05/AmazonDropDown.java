@@ -26,6 +26,7 @@ public class AmazonDropDown {
 
 
                  select.selectByValue("search-alias=appliances");
+        driver.quit();
         }
 
 

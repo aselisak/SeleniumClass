@@ -32,7 +32,7 @@ public class HandlingAlerts {
         Alert promptAlert = driver.switchTo().alert();
         promptAlert.sendKeys("Batch 12 is the Best!!!");
         promptAlert.accept();
-
+driver.quit();
 
 
 

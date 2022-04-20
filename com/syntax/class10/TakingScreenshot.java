@@ -27,7 +27,7 @@ public class TakingScreenshot {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+driver.quit();
 
     }
 }

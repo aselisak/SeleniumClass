@@ -23,6 +23,7 @@ public class GetAllLinksFromEbay {
             }
 
         }
+        driver.quit();
 
     }
 }

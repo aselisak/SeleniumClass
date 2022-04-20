@@ -16,7 +16,7 @@ public class ActionsClass {
         WebElement accAndLists = driver.findElement(By.id("nav-link-accountList"));
         Actions action = new Actions(driver);
         action.moveToElement(accAndLists).perform();
-
+driver.quit();
 
 
 

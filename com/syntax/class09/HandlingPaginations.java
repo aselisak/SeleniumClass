@@ -66,6 +66,7 @@ public class HandlingPaginations {
                 nextButton.click();
             }
         }
+        driver.quit();
 
     }
 }

@@ -35,7 +35,7 @@ public class DropDownHandling {
         }
 
         select.selectByValue("search-alias=appliances");
-
+driver.quit();
 
 
 

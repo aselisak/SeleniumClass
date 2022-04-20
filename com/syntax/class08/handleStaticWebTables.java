@@ -30,7 +30,7 @@ public class handleStaticWebTables {
             String colText =data.getText();
             System.out.println(colText);
         }
-
+driver.quit();
 
     }
 }

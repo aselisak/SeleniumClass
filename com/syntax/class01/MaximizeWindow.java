@@ -10,5 +10,6 @@ public class MaximizeWindow {
         driver.navigate().to("https://www.amazon.com/");
         driver.manage().window().maximize();
         //driver.manage().window().fullscreen();
+        driver.quit();
     }
 }

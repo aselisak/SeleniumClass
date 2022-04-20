@@ -30,7 +30,7 @@ public class Task2 {
         alert.sendKeys("Anton is a smart student");
         Thread.sleep(2000);
         alert.accept();
-        //driver.quit();
+        driver.quit();
 
 
     }

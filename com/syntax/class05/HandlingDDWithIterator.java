@@ -31,4 +31,5 @@ public class HandlingDDWithIterator {
                 System.out.println(optionText);
             }
         }
+        driver.quit();
     }}

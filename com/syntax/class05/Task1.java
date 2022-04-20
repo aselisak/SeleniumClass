@@ -44,10 +44,10 @@ public class Task1 {
                 selectMM.selectByValue("7");
                 selectDD.selectByValue("14");
                 selectYD.selectByValue("1989");
-                driver.quit();
+
 
 
             }}
-
+        driver.quit();
     }
 }

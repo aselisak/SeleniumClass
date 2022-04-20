@@ -21,5 +21,6 @@ public class ExplicitWaitTask {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'Welcome')]")));
         WebElement text =driver.findElement(By.xpath("//*[contains(text(),'Welcome')]"));
         System.out.println(text.getText());
+        driver.quit();
     }
 }

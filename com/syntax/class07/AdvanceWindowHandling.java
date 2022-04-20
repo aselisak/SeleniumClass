@@ -33,7 +33,7 @@ public class AdvanceWindowHandling {
             System.out.println(title);
         }
 
-
+driver.quit();
 
 
 

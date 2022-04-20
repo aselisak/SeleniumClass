@@ -29,7 +29,7 @@ public class SimpleWindowHandling {
         driver.close();
         driver.switchTo().window(mainPageHandle);
         helpLink.click();
-
+driver.quit();
 
 
 

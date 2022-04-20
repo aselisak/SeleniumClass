@@ -15,6 +15,6 @@ public class FluentWaitDemo {
                 withTimeout(Duration.ofSeconds(5)).
                 pollingEvery(Duration.ofSeconds(5)).//look for an element every 5 seconds
                 ignoring(NoSuchElementException.class);//ignores the exception mentioned
-
+driver.quit();
     }
 }

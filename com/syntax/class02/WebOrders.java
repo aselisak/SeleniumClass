@@ -20,7 +20,7 @@ public class WebOrders {
 
         driver.findElement(By.className("button")).click();
 
-
+driver.quit();
 
     }
 }

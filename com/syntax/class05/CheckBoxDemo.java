@@ -28,7 +28,7 @@ public class CheckBoxDemo {
         }
 
 
-
+driver.quit();
 
 
     }

@@ -28,7 +28,7 @@ WebElement search =driver.findElement(By.id("gh-btn"));
         boolean displayed=logo.isDisplayed();
         System.out.println(displayed);
 
-
+driver.quit();
 
 
     }

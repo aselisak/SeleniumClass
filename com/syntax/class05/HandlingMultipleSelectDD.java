@@ -31,7 +31,7 @@ public class HandlingMultipleSelectDD {
               select.deselectByIndex(5);
 
 
-
+driver.quit();
 
     }
 }
