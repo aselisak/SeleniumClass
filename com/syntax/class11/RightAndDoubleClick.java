@@ -32,6 +32,6 @@ public class RightAndDoubleClick {
         action.doubleClick(doubleClickButton).perform();
         System.out.println(alert.getText());
         alert.accept();
-driver.quit();
+        driver.quit();
     }
 }

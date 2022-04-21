@@ -20,7 +20,7 @@ public class JSExecutorDemo2 {
 
         WebElement backToTopButton = driver.findElement(By.className("navFooterBackToTopText"));
         js.executeScript("arguments[0].scrollIntoView(true)",backToTopButton);
-
+driver.quit();
 
 
     }

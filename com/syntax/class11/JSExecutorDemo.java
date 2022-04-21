@@ -29,7 +29,7 @@ public class JSExecutorDemo {
         WebElement loginButton =driver.findElement(By.id("btnLogin"));
         //loginButton.click();
         js.executeScript("arguments[0].click()",loginButton);//last option to click if other click methods is not working
-
+driver.quit();
 
 
     }

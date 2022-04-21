@@ -18,7 +18,7 @@ public class jSExecutorDemo3 {
 
         WebElement searchBar = driver.findElement(By.name("q"));
         searchBar.sendKeys("Mr.A");
-
+driver.quit();
 
     }
 }
